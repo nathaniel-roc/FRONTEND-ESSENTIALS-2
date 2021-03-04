@@ -1,44 +1,103 @@
-.container{
-    display: flex;
-    padding: 10px;
+.container {
+  display: flex;
+  padding: 10px;
 }
 
-.dobbelsteen{
-    display: flex;
-    min-width: 100px;
-    height: 100px;
-    background-color: red;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 5px 5px 10px 2px black;
-    border: 3px solid black;
+.dobbelsteen {
+  display: flex;
+  min-width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px 2px black;
+  border: 3px solid black;
 }
 
-.stip{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fff;
+.stip,
+.stip1,
+.stip2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
 }
 
-.links, .rechts, .midden{
-    width: 100%;
-    height: 100%;
+.links,
+.rechts,
+.midden {
+  width: 100%;
+  height: 100%;
 }
 
 /* TIP: Laat bovenstaande code staan */
 
 /* dobbelsteen1 */
+.stip {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
+.dobbelsteen1 > .stip {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 /* dobbelsteen2 */
+.dobbelsteen2 > .links {
+  width: 50%;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35%;
+}
+.dobbelsteen2 > .rechts {
+  width: 50%;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35%;
+}
 
 /* dobbelsteen3 */
-
+.dobbelsteen3 > .links {
+  width: 33.3%;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0%;
+}
+.dobbelsteen3 > .midden {
+  width: 33.4%;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35%;
+}
+.dobbelsteen3 > .rechts {
+  width: 33.3%;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 65%;
+}
 /* dobbelsteen4 */
-
+.dobbelsteen2 > .links {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50%;
+}
+.dobbelsteen2 > .rechts {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50%;
+}
 /* dobbelsteen5 */
 
 /* dobbelsteen6 */
-
-
